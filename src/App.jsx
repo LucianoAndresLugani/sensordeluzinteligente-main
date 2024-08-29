@@ -21,6 +21,7 @@ const App = (props) => {
       <TeamSection equipo={proyecto.equipo} />
       {proyecto.testimonios && <TestimonialsSection testimonios={proyecto.testimonios} />} {/* solo para grupo de 4 */}
       <CommentSection initialComments={proyecto.comentarios} /> {/* Comentarios iniciales desde `proyecto` */}
+      
       <Footer />
     </div>
   );
